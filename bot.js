@@ -128,7 +128,7 @@ client.on('error', e => {
 
 client.on('message', message => {
 if (message.content === `<@${client.user.id}>`) {
- message.reply('**Prefixim:** ${ayarlar.prefix} ')
+ message.reply('**Prefixim:** ${prefix} ')
 }
 });
 
